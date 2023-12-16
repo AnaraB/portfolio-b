@@ -1,10 +1,52 @@
 
 
+/* Navigation section  */
+
+.navbar {
+  background-color: bisque;
+}
+
+
+/* Hero banner section  */
 
 .bg-image {
-  background-color: yellow;
+ background-image: url("../images/sunrise-over-mountains.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 600px;
+ margin-top: 60px;
 }
 
-.hero-title {
-  background-color: aqua;
+.mask {
+  background-color: rgba(0, 0, 0, 0.6);
 }
+
+.hero {
+  height: 100vh;
+  position: relative;
+
+}
+
+/* Grid CSS  */
+
+.col {
+  background-color: azure;
+  width: 200px;
+  height: 200px;
+}
+
+/* Contact Me and About Me section */
+
+ .about-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px ;
+
+ }
+
+ .box-shadow-full {
+  padding-top: 3rem;
+  padding-bottom: 4rem;;
+ }
+
