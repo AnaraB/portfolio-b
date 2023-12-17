@@ -6,7 +6,6 @@
   background-color: bisque;
 }
 
-
 /* Hero banner section  */
 
 .bg-image {
@@ -29,6 +28,8 @@
 }
 
 /* Grid CSS  */
+
+/* Work Section */
 
 .blog-grid {
     position: relative;
@@ -53,42 +54,38 @@
   box-shadow: 5px 5px 15px rgba(181, 173, 173, 0.8);
 } 
 
-/* .blog-grid-text {
-    position: relative
-} */
-
 .blog-grid-text>span {
     color: #292dc2;
     font-size: 10px;
     padding-right: 5px
 }
-/* 
-.blog-grid-text h4 {
-    line-height: normal;
-    margin-bottom: 15px
-} */
 
 .customPosition {
   padding: 100px 40px;
 }
 
+
+/* Skills section  */
+
 .col {
-  background-color: azure;
+  background-color: rgb(253, 247, 241);
   width: 200px;
   height: 200px;
 }
 
+
+
 /* Contact Me and About Me section */
 
- .about-img img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 30px ;
+.about-img img {
+max-width: 100%;
+height: auto;
+border-radius: 30px ;
 
- }
+}
 
- .box-shadow-full {
-  padding-top: 3rem;
-  padding-bottom: 4rem;;
- }
+.box-shadow-full {
+padding-top: 3rem;
+padding-bottom: 4rem;;
+}
 
