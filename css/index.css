@@ -1,17 +1,32 @@
+
+
+
 body {
-  background-color: #F5CCA0;
+  box-sizing: content-box;
+  width: 100%;
+  background-color: #F5F7F8;
 }
 
 /* Navigation section  */
 
 .navbar {
-  background-color:#E48F45;
+  background-color: white;
 }
 
 /* Hero banner section  */
 
-.bg-image {
-  background-image: url("../images/sunrise-over-mountains.jpg");
+.pro {
+  text-decoration: underline;
+}
+
+.hero-section {
+  background-color: #495E57;
+  height: 40vw ;
+}
+
+/* .bg-image { */
+  /* background-image: url("../images/sunrise-over-mountains.jpg"); */
+  /* background-color: #495E57;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,27 +34,26 @@ body {
   margin-top: 60px;
 }
 
-.mask {
-  /* background-color: #6B240C;
-  opacity: 0.5 ; */
-  /* background-color: rgba(0, 0, 0, 0.6); */
-}
+.text-yellow {
+  color: white
+ 
+} */
 
-.hero {
-  height: 100vh;
-  position: relative;
 
+.container h2 {
+  color: #007bff;
 }
 
 /* Grid CSS  */
 
 /* Work Section */
 
+
 .blog-grid {
     position: relative;
     box-shadow: 0 1rem 1.75rem 0 rgba(45, 55, 75, 0.1);
     height: 100%;
-    border: 0.0625rem solid rgba(220, 224, 229, 0.6);
+    border: 2px solid #495E57;
     border-radius: 0.25rem;
     transition: all .2s ease-in-out;
     height: 100%
@@ -71,15 +85,22 @@ body {
 
 /* Skills section  */
 
-.col {
-  background-color: rgb(253, 247, 241);
-  width: 200px;
-  height: 200px;
+#skills {
+  background-color: #F4CE14;
 }
 
-
+.box{
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  background-clip:padding-box;
+}
 
 /* Contact Me and About Me section */
+
+#contact-me {
+  background-color: #495E57;
+  color: white;
+}
 
 .about-img img {
 max-width: 50%;
@@ -88,8 +109,8 @@ border-radius: 50%;
 
 }
 
-.box-shadow-full {
-padding-top: 3rem;
-padding-bottom: 4rem;;
-}
 
+footer {
+  background-color: #45474B;
+  height: 100px;
+}
