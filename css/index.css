@@ -1,5 +1,5 @@
 
-h2 {
+h2, h3 {
   color: #007bff;
 }
 
@@ -43,12 +43,15 @@ body {
 .card-title {
   color: #800080;
 }
-.customCardHeight {
-  width: 20rem;
-  height: auto;
-  border: 1px solid darkgrey;
-}
 
+#work img {
+  width: 40rem;
+  height: auto;
+}
+.customSize {
+  width: 60rem;
+}
+/* border: 1px solid darkgrey; */
 
 .projectGridArea:hover {
   transform: scale(1.1);
@@ -60,26 +63,15 @@ body {
 
 /* Skills section  */
 
-h-3 {
-  height: 3rem;
-}
 .gradient-bg {
 
   background-image: linear-gradient(to bottom, #c683d7, #b67ddb, #a478df, #8d74e4, #7071e8);
 }
 
-/* .box{
-  box-sizing: border-box;
-  border: 3px solid transparent;
-  background-clip:padding-box;
-} */
-
-/* Contact Me and About Me section */
-
-.about-img img {
-max-width: 35%;
+.about-img {
+max-width: 50%;
 height: auto;
-border-radius: 20%;
+border-radius: 50%;
 
 }
 

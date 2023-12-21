@@ -21,10 +21,10 @@
 <body>
   <!-- NAvigation bar  -->
   <header id="header">
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <h1 class="navbar-brand m-2 text-uppercase font-weight-bold">
-          <a href="#page-top">Pomegranati</a>
-        </h1>
+    <nav class="navbar navbar-expand-lg navbar-default fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand m-2 text-uppercase font-weight-bold" href="#page-top">Pomegranati</a>
+      
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
             </li>
           </ul>
         </div>
-    
+      </div>
     </nav>
   </header>
 
@@ -65,62 +65,61 @@
       <!-- Work section -->
     <section class="section-work text-uppercase" id="work">
     <div class="container">
-      <h2 class="m-5 text-center">Work</h2>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 col-sm-12 mb-3 projectGridArea">
-          <div class="card customCardHeight">
-            <img alt="goodnessBites website" src="./images/projects/goodnessBites.png">
-            <div class="card-body">
-              <h5 class="card-title">Goodness Bites</h5>
-              <p class="card-text">HTML, CSS, responsive design</p>
-              <a href="https://anarab.github.io/anarkasGB/" target="_blank" alt="goodnessBites food website" class="btn btn-primary">website</a>
-            </div>
-          </div>
-        </div>  
+        <h2 class="m-5 text-center">Work</h2>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 projectGridArea">
+              <img class="img-fluid img-thumbnail" alt="goodnessBites website" src="./images/projects/goodnessBites.png">
+              <div class="project-description">
+                <h5>Goodness Bites</h5>
+                <p class="">HTML, CSS, responsive design</p>
+                <a href="https://anarab.github.io/anarkasGB/" target="_blank" alt="goodnessBites food website"class="btn btn-primary">website</a>            
+              </div> 
+          </div>  
+        </div>
 
-        <div class="col-md-6 col-lg-4 col-sm-12 mb-3 projectGridArea">
-          <div class="card customCardHeight">
-            <img alt="meditationClub website" src="./images/projects/meditationClub.png">
-            <div class="card-body">
-              <h5 class="card-title">Meditation club</h5>
-              <p class="card-text">HTML, CSS, responsive design</p>
+        <div class="row justify-content-center align-items-center">
+        <div class="col-md-3 mb-3 projectGridArea">
+            <img  class="img-fluid img-thumbnail customSize" alt="meditationClub website" src="./images/projects/meditationClub.png">
+            <div class="project-description">
+              <h5 class="">Meditation club</h5>
+              <p class="">HTML, CSS, responsive design</p>
               <a href="https://anarab.github.io/meditationClub/" target="_blank" alt="meditationClub" class="btn btn-primary">website</a>
             </div>
-          </div>
+            
         </div>  
 
-        <div class="col-md-6 col-lg-4 col-sm-12 mb-3 projectGridArea">
-          <div class="card customCardHeight">
-            <img alt="horiseon website" src="./images/projects/horiseon.png">
-            <div class="card-body">
-              <h5 class="card-title">Horiseon</h5>
-              <p class="card-text">HTML, CSS, responsive design</p>
+        <div class="col-md-3 mb-3 projectGridArea">
+            <img alt="horiseon website"  class="img-fluid img-thumbnail" src="./images/projects/horiseon.png">   
+            <div class="project-description">
+              <h5 class="">Horiseon</h5>
+              <p class="">HTML, CSS, responsive design</p>
               <a href="https://anarab.github.io/Horiseon/" class="btn btn-primary" target="_blank" alt="horiseon website">website</a>
-            </div>
-          </div>
-        </div>  
+              </div>    
+        </div> 
 
-        <div class="col-md-6 col-lg-4 col-sm-12 mb-3 projectGridArea">
-          <div class="card customCardHeight">
-            <img alt="portfolio website" src="./images/projects/portfolio.png">
-            <div class="card-body">
-              <h5 class="card-title">Portfolio</h5>
-              <p class="card-text">HTML, CSS, responsive design</p>
+        <div class="w-100"></div>
+
+        <div class="col-md-3 mb-3 projectGridArea">
+            <img  class="img-fluid img-thumbnail" alt="portfolio website" src="./images/projects/portfolio.png">
+            <div class="project-description">
+              <h5 class="">Portfolio</h5>
+              <p class="">HTML, CSS, responsive design</p>
               <a href="https://anarab.github.io/my_portfolio/" target="_blank" alt="portfolio website" class="btn btn-primary">website</a>
-            </div>
-          </div>
+              </div>
         </div>  
 
-        <div class="col-md-6 col-lg-4 col-sm-12 mb-3 projectGridArea">
-          <div class="card customCardHeight">
-            <img alt="tindog website" src="./images/projects/TinDog.png">
-            <div class="card-body">
-              <h5 class="card-title">TinDog</h5>
-              <p class="card-text">HTML, CSS, responsive design</p>
+        <div class="col-md-3 mb-3 projectGridArea">
+            <img  class="img-fluid img-thumbnail" alt="tindog website" src="./images/projects/TinDog.png">
+            <div class="project-description">
+              <h5 class="">TinDog</h5>
+              <p class="">HTML, CSS, responsive design</p>
               <a href="https://anarab.github.io/TinDog/" target="_blank" alt="tindog website" class="btn btn-primary">website</a>
-            </div>
-          </div>
-        </div>               
+              </div>
+        </div> 
+
+      </div>
+        
+        
       </div>
   </div>
   </section>
@@ -160,11 +159,11 @@
         </div>
       </section>
 
-      <section class=" pt-5 contact-me" id="contact-me">
+      <section class="pt-5 contact-me" id="contact-me">
         <div class="container">
-          <div class="row">
-            <div class="col my-auto">
-              <h2 class="text-center mb-4  text-uppercase" id="about-me">About me</h2>
+          <div class="row justify-content-evenly py-3">
+            <div class="col-md-4">
+              <h2 class="text-left mb-4" id="about-me">About me</h2>
               <p>  Hi, I am Aygerim, a Junior Front-end Developer based in London. I
                 love nature, good food and learn new things. I'm a front end
                 developer with several months of experience in web development. I've
@@ -176,28 +175,22 @@
                 hear from you.
               </p>
             </div>
+            <div class="col-md-4 align-self-start">
+                <img src="./images/profile-photo.jpg" class="about-img ps-5" alt="aygerim-profile-img">           
+            </div>
+            <div class="col-md-4">      
+              <div class="about-info">
+                <h2 class="text-left text-uppercase pb-3">Contact Me</h2>
+                <p><span class="title-s">Name: </span> <span>Aygerim Berdalieva</span></p>
+                <p><span class="title-s">Profile: </span> <span>front-end developer</span></p>
+                <p><span class="title-s">Email: </span> <span>berdali.aygerim9@gmail.com</span></p>
+                <p><span class="title-s">Phone: </span> <span>+440744735400</span></p>
+              </div>
+            </div>  
           </div>
-          <h2 class="text-center text-uppercase my-2">Contact Me</h2>
-              <div class="row py-4 align-items-center">
-                <div class="pt-2 col-lg-6">
-                  <div class="about-img">
-                    <img src="./images/profile-photo.jpg" class="" alt="aygerim-profile-img">
-                  </div>
-                </div>
-
-                <div class="col-lg-6">      
-                  <div class="about-info">
-                    <p><span class="title-s">Name: </span> <span>Aygerim Berdalieva</span></p>
-                    <p><span class="title-s">Profile: </span> <span>front-end developer</span></p>
-                    <p><span class="title-s">Email: </span> <span>berdali.aygerim9@gmail.com</span></p>
-                    <p><span class="title-s">Phone: </span> <span>+440744735400</span></p>
-                  </div>
-                </div>  
-          </div>   
         </div>
-
       </section>
-     </main>
+    </main>
     </body>
     <footer>
       <div class="container">
