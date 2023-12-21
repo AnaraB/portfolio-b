@@ -1,3 +1,7 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
 h2, h3 {
   color: #007bff;
@@ -13,9 +17,19 @@ body {
   line-height: 1.5;
   font-weight: 500;
 
+
 }
 
 /* Navigation section  */
+
+#header nav a {
+  color: rgb(10, 10, 237);
+}
+
+#header nav a:hover {
+  color: rgba(184, 9, 219, 0.854);
+}
+
 
 /* Hero banner section  */
 
@@ -48,6 +62,7 @@ body {
 .customSize {
   width: 60rem;
 }
+
 /* border: 1px solid darkgrey; */
 
 .projectGridArea:hover {
