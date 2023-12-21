@@ -3,7 +3,7 @@ html, body {
   padding: 0;
 }
 
-h2, h3 {
+h2, h3, h4 {
   color: #007bff;
 }
 
@@ -46,24 +46,19 @@ body {
 }
 
 
-/* Grid card CSS  */
-
 /* Work Section */
 
-.card-title {
-  color: #800080;
-  font-weight: 500;
+/* --------Grid cards CSS--------  */
+
+#work p {
+  font-size: 0.7rem;
+
 }
 
-#work img {
-  width: 40rem;
-  height: auto;
+#work h5 {
+  color: rgba(78, 11, 246, 0.877);
+  font-size: 1rem;
 }
-.customSize {
-  width: 60rem;
-}
-
-/* border: 1px solid darkgrey; */
 
 .projectGridArea:hover {
   transform: scale(1.1);
@@ -71,12 +66,9 @@ body {
   
 } 
 
-
-
 /* Skills section  */
 
 .gradient-bg {
-
   background-image: linear-gradient(to bottom, #c683d7, #b67ddb, #a478df, #8d74e4, #7071e8);
 }
 
@@ -84,8 +76,9 @@ body {
 max-width: 50%;
 height: auto;
 border-radius: 50%;
-
 }
+
+/* Footer section */
 
 footer {
   background-color: #191D88;
