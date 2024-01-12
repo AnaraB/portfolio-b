@@ -15,7 +15,7 @@ This version of my portfolio webpage includes a navbar,jumbotron, work section w
 <img alt="portfolio webpage build with bootstrap" src="images/screenshot.png" width="200">
 
 
-Navigate to < https://anarab.github.io/portfolio-with-bootstrap/> to find the  webpage. 
+Navigate to <https://anarab.github.io/portfolio-b/> to find the  webpage. 
 
 ## Credits
 
